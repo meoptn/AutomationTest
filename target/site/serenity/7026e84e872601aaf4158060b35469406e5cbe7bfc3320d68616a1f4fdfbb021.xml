@@ -1,0 +1,37 @@
+<acceptance-test-run title="Register an account" name="Register an account" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13637" timestamp="2015-07-08T11:24:51.736+07:00">
+  <user-story id="register-an-account" name="Register an account" path="src/test/resources/features/signUp/SignUp.feature"/>
+  <tags>
+    <tag name="Register an account" type="feature"/>
+    <tag name="Sign up/Sign up" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10727">
+    <screenshots>
+      <screenshot image="d89178cc9c4eb6214c6a222bdbfa36fd_NONE.png"/>
+    </screenshots>
+    <description>Given I go to home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="540">
+    <screenshots>
+      <screenshot image="9408b591e7cf83dd7fdbfc8c05a446dd_NONE.png"/>
+    </screenshots>
+    <description>When I input valid data&#xd;
+| Field | Value |&#xd;
+| First name | Mai |&#xd;
+| Last name | PTN |&#xd;
+| Email Address | maimeo3@gmail.com |&#xd;
+| Password | 12345678 |&#xd;
+| Confirm password | 12345678 |</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1890">
+    <screenshots>
+      <screenshot image="12642b2441e52154d6f1e5b602c0c3a6_NONE.png"/>
+    </screenshots>
+    <description>And I click on register button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="320">
+    <screenshots>
+      <screenshot image="12642b2441e52154d6f1e5b602c0c3a6_NONE.png"/>
+    </screenshots>
+    <description>Then I want to see text &quot;WELCOME, MAI PTN!&quot;</description>
+  </test-step>
+</acceptance-test-run>
